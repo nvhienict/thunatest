@@ -17,3 +17,21 @@ Route::get('/', function()
 });
 
 Route::resource('users', 'UserController');
+// Route::get('/header-home',function(){
+// 	return View::make('template.header-home');
+// });
+Route::get('/header-home',function(){
+	return View::make('template.header-home');
+});
+Route::get('/menu',function(){
+	return View::make('template.menu');
+});
+Route::get('/footer',function(){
+	return View::make('template.footer');
+});
+Route::get('/detail-vendor', function(){
+	return View::make('template.detail');
+});
+Route::get('/hellooo',function(){
+	return View::make('hellooo');
+});

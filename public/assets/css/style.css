@@ -167,6 +167,7 @@ height: 1px;
 .contact-me{
 	background-color: #F7F7F7;
 	margin: 2px;
+	padding: 5px;
 	border: 1px solid #F7F7F7;
 }
 .tab-menu{
@@ -178,7 +179,19 @@ height: 1px;
 	height: 100px;
 }
 .action{
-	background-color: gray;
+	background-color: #F7F7F7;
 	margin: 2px;
-	border: 1px solid gray;
+	border: 1px solid #F7F7F7;
+}
+.form{
+	background-color: #f2f0ee;
+	margin: 10px auto;
+	padding: 10px;
+}
+.fb-icon{
+	width: 20px;
+	height: 20px;
+	background-size: 20px 20px;
+	background: url("") 0 0 no-repeat;
+
 }

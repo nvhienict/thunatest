@@ -155,6 +155,7 @@
 				<div class="contact-me">
 					<h3> <i class="glyphicon glyphicon-earphone"></i> 01234 856 856 </h3>
 					<p>Xin vui lòng cho biết nhà cung cấp này bạn tìm thấy trên Thuna.vn</p>
+					<div class="form">
 					<form class="form-horizontal" role="form">
 					  <div class="form-group">
 					    <div class="col-sm-10">
@@ -187,16 +188,18 @@
 					  </div>
 					  <div class="form-group">
 					    <div class="col-sm-offset-2 col-sm-10">
-					      <button type="button" class="btn btn-primary btn-lg active"> Contact Us</button>
+					      <button type="button" class="btn btn-primary btn-lg active"> Liên lạc</button>
 					  </div>
 					</form>
+					</div>
 				</div>
 			</div>
 			<div class="action">
-				<a href="#">Viết phản hồi</a><br/>
-				<a href="#"> Lưu nhà cung cấp dịch vụ này</a><br/>
-				<a href="#"> Tìm tôi trên Facebook</a><br/>
-				<a href="#"> Theo dõi tôi trên Pinterest</a>
+				 <a href="#"><i class="glyphicon glyphicon-star"></i> Viết phản hồi</a><br/>
+				<a href="#"><i class="glyphicon glyphicon-heart"></i> Lưu nhà cung cấp dịch vụ này</a><br/>
+				<img src="{{Asset('public/icon-footer/icon-fb.jpg')}}"><a href="#"> Tìm tôi trên Facebook</a><br/>
+				<img src="{{Asset('public/icon-footer/twitter.jpg')}}"><a href="#"> Theo dõi tôi trên twitter</a><br/>
+				<img src="{{Asset('public/icon-footer/pin.jpg')}}"><a href="#"> Theo dõi tôi trên Pinterest</a>
 			</div>
 		</div>
 	</div>

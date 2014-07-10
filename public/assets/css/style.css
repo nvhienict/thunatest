@@ -143,12 +143,42 @@ height: 1px;
 #vendor{
 	width: 1000px;
 	margin: 0 auto;
+	
 }
 #image-vendor{
 	float: left;
 	width: 30%;
+	margin: 0 auto;
 }
 #detail-vendor{
 	float: right;
-	width: 70%;
+	width: 65%;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+#detail-vendor h3{
+	margin: 1px;
+}
+.img-vendor{
+	width: 200px;
+	height: 200px;
+	margin-bottom: 10px;
+}
+.contact-me{
+	background-color: #F7F7F7;
+	margin: 2px;
+	border: 1px solid #F7F7F7;
+}
+.tab-menu{
+	border-top: 1px solid gray;
+	margin-bottom: 50px;
+}
+.caption{
+	width: 100px;
+	height: 100px;
+}
+.action{
+	background-color: gray;
+	margin: 2px;
+	border: 1px solid gray;
 }

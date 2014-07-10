@@ -1,4 +1,5 @@
-<html>
+@extends('template.khung')
+@section('content')
 <head>
 	<title>Detail Vendor</title>
 	<link href="{{Asset('public/assets/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -21,6 +22,8 @@
 			<div class="col-xs-8 col-md-9 ">
 				<div>
 					<div id="image-vendor">
+						<!-- //hiển thị avatar của vendor ở đây -->
+						@yield('image-vendor')
 						<a href="#">
 							<img src="{{Asset('public/vendor/mondial.jpg')}}" class="img-vendor">
 						</a>
@@ -28,6 +31,14 @@
 						<div class="fb-like" data-href="https://www.facebook.com/thuna.1987" data-width="150px" data-layout="standard" data-action="like" data-show-faces="false" data-share="false"></div>
 					</div>
 					<div id="detail-vendor"> 
+
+						<!-- hiện thị chi tiết các thông tin vendor ở đây -->
+
+						@yield('detail-vendor')
+
+
+
+
 						<h3>Khách sạn Mondial Hue</h3>
 						<p>Mondial Hotel là nơi hoàn hảo cho đám cưới </p>
 						<p> thông tin đánh giá tại đây</p>
@@ -56,6 +67,12 @@
 						</ul>
 						<div class="tab-content">
 					        <div class="tab-pane active" id="aboutme">
+
+
+					        	@yield('tab-hoso')
+
+
+
 					        	<div id="content-vendor">
 									<h4> Đôi nét về chúng tôi</h4>
 									<p>Nằm trên cung đường sôi động của thành phố, khách sạn Mondial mang vẻ hiện đại mà thanh thoát. 
@@ -174,13 +191,26 @@
 									</div>
 								</div>
 					        </div>
-					        <div class="tab-pane" id="review">Review</div>
+					        <div class="tab-pane" id="review">
+					        	@yield('tab-review')
+					       		Review
+					   		</div>
 					        <div class="tab-pane" id="photo">
+					        	@yield('tab-photo')
 					        	Ảnh
 					        </div>
-					        <div class="tab-pane" id="video">Video</div>
-					        <div class="tab-pane" id="FQA">FQA</div>
-					        <div class="tab-pane" id="MAP">BẢN ĐỒ</div>
+					        <div class="tab-pane" id="video">
+					        	@yield('tab-video')
+					        	Video
+					        </div>
+					        <div class="tab-pane" id="FQA">
+					        	@yield('tab-FQA')
+					        	FQA
+					        </div>
+					        <div class="tab-pane" id="MAP">
+					        	@yield('tab-map')
+					        	BẢN ĐỒ
+					        </div>
 					    </div>
 							<br>
 					</div>
@@ -251,4 +281,4 @@
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </body>
-</html>
+@endsection

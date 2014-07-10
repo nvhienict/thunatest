@@ -4,6 +4,7 @@
 	<link href="{{Asset('public/assets/css/bootstrap.min.css')}}" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
     <link href="{{Asset('public/assets/css/style.css')}}" rel="stylesheet">
+     <link href="{{Asset('public/assets/css/slide.css')}}" rel="stylesheet">
 </head>
 <body>
 	<div id="fb-root"></div>
@@ -38,72 +39,103 @@
 						<a href="#"> more detail </a>
 
 					</div>
-				</div>
-				<div Style="clear: both;"></div>
-				<div class="tab-menu">
-				 <ul class="nav nav-tabs nav-justified" role="tablist">
-						<li class="active"> <a href="#">Hồ Sơ</a></li>
-						<li> <a href="#">Review(6)</a></li>
-						<li> <a href="#">Ảnh</a></li>
-						<li> <a href="#">Video</a></li>
-						<li> <a href="#">Giao Dịch</a></li>
-						<li> <a href="#">FQA</a></li>
-						<li> <a href="#">Map</a></li>
-					</ul>
-					<ul class="nav nav-tabs nav-justified" role="tablist">
-				</div>
-				<div id="content-vendor">
-					<!-- nội dung các tab nằm ở đây -->
-					@yeild
+					<div Style="clear: both;"></div>
+					<div class="tab-menu">
+					 <ul class="nav nav-tabs nav-justified" role="tablist">
+							<li class="active"> <a href="#">Hồ Sơ</a></li>
+							<li> <a href="#">Review(6)</a></li>
+							<li> <a href="#">Ảnh</a></li>
+							<li> <a href="#">Video</a></li>
+							<li> <a href="#">Giao Dịch</a></li>
+							<li> <a href="#">FQA</a></li>
+							<li> <a href="#">Map</a></li>
+						</ul>
+						
+					</div>
+					<div id="content-vendor">
+						<!-- nội dung các tab nằm ở đây -->
+						@yeild
 
-					<h4> Đôi nét về chúng tôi</h4>
-					<p>Nằm trên cung đường sôi động của thành phố, khách sạn Mondial mang vẻ hiện đại mà thanh thoát. 
-						Ngoài hệ thống phòng ốc, trang thiết bị đủ tiêu chuẩn 4 sao, 
-						Mondial còn cung cấp các dịch vụ tổ chức tiệc cưới, mang đến cho khách sự hài lòng trọn vẹn nhất 
-						 để lưu giữ khoảnh khắc hạnh phúc trong ngày vụi trọng đại này.</p>
-					<p>Sở hửu vẻ sang trọng, ấm cúng, với sức chứa từ 350 khách trở lên, phòng tiệc cưới của khách sạn được thiết kế trang nhã, hiện đại với tông màu trắng chủ đạo mang đậm phong cách châu Âu, tạo không gian lãng mạn cho ngày cưới của bạn.</p>
-					<p>Từ cổng chào, bàn tiệc hay sảnh cưới đều được trang trí bằng hoa tươi theo các phong cách khác nhau: tinh tế, lãng mạn và sang trọng với những đóa hoa ly trắng muốt, hoa hồng trắng thơm ngát, hay những đóa cẩm tú cầu thanh nhã. Tất cả sẽ biến tiệc cưới của bạn thành chốn thiên đường thật sự , tràn ngập hương sắc thiên nhiên với màu xanh tươi mát của lá và màu trắng tinh khiết của hoa.</p>
-				</div>
+						<h4> Đôi nét về chúng tôi</h4>
+						<p>Nằm trên cung đường sôi động của thành phố, khách sạn Mondial mang vẻ hiện đại mà thanh thoát. 
+							Ngoài hệ thống phòng ốc, trang thiết bị đủ tiêu chuẩn 4 sao, 
+							Mondial còn cung cấp các dịch vụ tổ chức tiệc cưới, mang đến cho khách sự hài lòng trọn vẹn nhất 
+							 để lưu giữ khoảnh khắc hạnh phúc trong ngày vụi trọng đại này.</p>
+						<p>Sở hửu vẻ sang trọng, ấm cúng, với sức chứa từ 350 khách trở lên, phòng tiệc cưới của khách sạn được thiết kế trang nhã, hiện đại với tông màu trắng chủ đạo mang đậm phong cách châu Âu, tạo không gian lãng mạn cho ngày cưới của bạn.</p>
+						<p>Từ cổng chào, bàn tiệc hay sảnh cưới đều được trang trí bằng hoa tươi theo các phong cách khác nhau: tinh tế, lãng mạn và sang trọng với những đóa hoa ly trắng muốt, hoa hồng trắng thơm ngát, hay những đóa cẩm tú cầu thanh nhã. Tất cả sẽ biến tiệc cưới của bạn thành chốn thiên đường thật sự , tràn ngập hương sắc thiên nhiên với màu xanh tươi mát của lá và màu trắng tinh khiết của hoa.</p>
+					</div>
 				<div class="tab-menu" id="photos">
 					<h4>Ảnh</h4> 
 
-					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-					  <!-- Indicators -->
-					  <ol class="carousel-indicators">
-					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-					    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-					  </ol>
-
 					  <!-- Wrapper for slides -->
-					  <div class="carousel-inner">
-					    <div class="item active">
-					      <img src="{{Asset('public/vendor/nha-hang-tiec-cuoi-mondial-hue_4.jpg')}}" alt="thử thôi mà">
-					      <div class="carousel-caption">
-					      </div>
-					    </div>
-					    <div class="item">
-					      <img src="{{Asset('public/vendor/mondial.jpg')}}" alt="...">
-					      <div class="carousel-caption">
-					      </div>
-					    </div>
-					    <div class="item">
-					      <img src="{{Asset('public/vendor/nha-hang-tiec-cuoi-mondial-hue_5.jpg')}}" alt="...">
-					      <div class="carousel-caption">
-					      </div>
-					    </div>
-					  </div>
-
-					  <!-- Controls -->
-					  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-					    <span class="glyphicon glyphicon-chevron-left"></span>
-					  </a>
-					  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-					    <span class="glyphicon glyphicon-chevron-right"></span>
-					  </a>
+					<div id="bigPic">
+					    <img alt="" src="public/imgs/1.jpg">
+					    <img alt="" src="public/imgs/2.jpg">
+					    <img alt="" src="public/imgs/3.jpg">
+					    <img alt="" src="public/imgs/4.jpg">
+					    <img alt="" src="public/imgs/5.jpg">
+					    <img alt="" src="public/imgs/6.jpg">
+					    <img alt="" src="public/imgs/7.jpg">
+					    
 					</div>
-				</div>
 
+					<ul id="thumbs">
+					    <li class="active" rel="1"><img alt="" src="public/imgs/1_thumb.jpg"> </li>
+					    <li rel="2"><img alt="" src="public/imgs/3_thumb.jpg"> </li>
+					    <li rel="3"><img alt="" src="public/imgs/4_thumb.jpg"> </li>
+					    <li rel="4"><img alt="" src="public/imgs/5_thumb.jpg"> </li>
+					    <li rel="5"><img alt="" src="public/imgs/6_thumb.jpg"> </li>
+					    <li rel="6"><img alt="" src="public/imgs/7_thumb.jpg"> </li>
+					    <li rel="7"><img alt="" src="public/imgs/8_thumb.jpg"> </li>
+					   
+					</ul>
+					<script type="text/javascript">
+							var currentImage;
+						    var currentIndex = -1;
+						    var interval;
+						    function showImage(index){
+						        if(index < $('#bigPic img').length){
+						        	var indexImage = $('#bigPic img')[index]
+						            if(currentImage){   
+						            	if(currentImage != indexImage ){
+						                    $(currentImage).css('z-index',2);
+						                    clearTimeout(myTimer);
+						                    $(currentImage).fadeOut(250, function() {
+											    myTimer = setTimeout("showNext()", 3000);
+											    $(this).css({'display':'none','z-index':1})
+											});
+						                }
+						            }
+						            $(indexImage).css({'display':'block', 'opacity':1});
+						            currentImage = indexImage;
+						            currentIndex = index;
+						            $('#thumbs li').removeClass('active');
+						            $($('#thumbs li')[index]).addClass('active');
+						        }
+						    }
+						    
+						    function showNext(){
+						        var len = $('#bigPic img').length;
+						        var next = currentIndex < (len-1) ? currentIndex + 1 : 0;
+						        showImage(next);
+						    }
+						    
+						    var myTimer;
+						    
+						    $(document).ready(function() {
+							    myTimer = setTimeout("showNext()", 3000);
+								showNext(); //loads first image
+						        $('#thumbs li').bind('click',function(e){
+						        	var count = $(this).attr('rel');
+						        	showImage(parseInt(count)-1);
+						        });
+							});
+						    
+							
+							</script>	
+					
+				</div>
+				<div style="clear:both;"></div>
 				<div class="tab-menu">
 					<h4>Video</h4> 
 				 <iframe width="560" height="315" frameborder="0" allowfullscreen="" src="http://www.youtube.com/&#101;mbed/fR4xKIRxCRE"></iframe>
@@ -118,6 +150,7 @@
 					</p>	
 				</div>
 			</div>
+		</div>
 			<div class="col-md-3 ">
 				<div class="contact-me">
 					<h3> <i class="glyphicon glyphicon-earphone"></i> 01234 856 856 </h3>

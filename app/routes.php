@@ -32,6 +32,9 @@ Route::get('/footer',function(){
 Route::get('/detail-vendor', function(){
 	return View::make('template.detail');
 });
+Route::get('/review', function(){
+	return View::make('tap-vendor.Review');
+});
 Route::get('/hellooo',function(){
 	return View::make('hellooo');
 });

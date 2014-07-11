@@ -23,12 +23,16 @@ Route::resource('users', 'UserController');
 Route::get('/header-home',function(){
 	return View::make('template.header-home');
 });
+Route::get('/header-home1',function(){
+	return View::make('template.header-home1');
+});
 Route::get('/menu',function(){
 	return View::make('template.menu');
 });
 Route::get('/footer',function(){
 	return View::make('template.footer');
 });
+
 Route::get('/detail-vendor', function(){
 	return View::make('template.detail');
 });
@@ -37,4 +41,7 @@ Route::get('/khung', function(){
 });
 Route::get('/hellooo',function(){
 	return View::make('hellooo');
+});
+Route::get('/review',function(){
+	return View::make('template.reviews');
 });

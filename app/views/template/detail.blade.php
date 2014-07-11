@@ -37,8 +37,6 @@
 						@yield('detail-vendor')
 
 
-
-
 						<h3>Khách sạn Mondial Hue</h3>
 						<p>Mondial Hotel là nơi hoàn hảo cho đám cưới </p>
 						<p> thông tin đánh giá tại đây</p>

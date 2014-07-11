@@ -1,0 +1,93 @@
+body{
+	background: #F1F1F1;
+
+}
+.view-login{
+	background: #FBFBFB;
+	box-shadow: 2px 2px 2px 2px #888888;
+	margin-top: 150px;
+	margin-bottom: 70px;
+}
+.form-login{
+	margin-top: 50px;
+}
+.form-login input{
+	margin-left: 20px;
+	width: 260px;
+
+}
+.form-login button{
+	margin-left: 20px;
+}
+.title{
+	height: 128px;
+	display: block;
+	background: url(http://www.admin-magazine.com/extension/adminmag/design/admin_fe/images/admin-magazine-og.png) no-repeat;
+	background-size: 360px 128px;
+}
+.bar-header{
+	background: #464646;
+	color: #D0D0D0;
+}
+.submit{
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	background: #19B5BC;
+	color: white;
+	margin-bottom: 20px;
+
+}
+.name-admin{
+	border-left: 1px solid #D0D0D0;
+}
+.name-admin h1 button{
+	margin-top: -10px;
+}
+.nav-bar-admin{
+	border-right: 1px solid #D0D0D0;
+	height: 600px;
+}
+.table-content{
+	margin-top: 20px;
+}
+.submenus {
+    display:none;
+}
+#col-content:hover #quick-menu {
+    display: inline;
+}
+#form-add-vendor{
+	padding: 40px 20px 60px 30px;
+	background: #F2F0EE;
+}
+#form-add-vendor label{
+	margin-top: 10px;
+	font-size: 19px;
+}
+#form-add-vendor .form-group input,#form-add-vendor .form-group textarea{
+	margin-bottom: 20px;
+}
+.form-select select{
+	margin-bottom: 20px;
+	height: 46px;
+	font-size:18px;
+	line-height: 1.33;
+	padding: 10px 16px;
+}
+.form-select{
+	clear: both;
+}
+#form-add-vendor p{
+	clear: both;
+	margin-left: 190px;
+}

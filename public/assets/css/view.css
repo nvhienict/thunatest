@@ -1,0 +1,148 @@
+.container
+{
+	margin-left: 100px;
+	margin-bottom:200px; 
+}
+
+#hident-div
+{
+    display:none;
+    position: absolute;
+    font-size: 12 px;
+    color: black;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius:5px;
+    width: 200px;
+    margin-left: 550px;
+    margin-top: 50px;
+    background: white;
+    z-index: 100;
+}
+#hident-div1
+{
+	display:none;
+    position: absolute;
+    font-size: 12 px;
+    color: black;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius:5px;
+    width: 200px;
+    margin-left: 700px;
+    background: white;
+    z-index: 100;
+}
+
+#hident-div2
+{
+	display:none;
+    position: absolute;
+    font-size: 12 px;
+    color: black;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius:5px;
+    width: 200px;
+    margin-left: 250px;
+    background: white;
+    z-index: 100;
+}
+
+#hident-div3
+{
+    display:none;
+    position: absolute;
+    font-size: 12 px;
+    color: black;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius:5px;
+    width: 200px;
+    margin-left: 170px;
+    background: white;
+    z-index: 100;
+}
+
+#hident-div4
+{
+    display:none;
+    position: absolute;
+    font-size: 12 px;
+    color: black;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius:5px;
+    width: 200px;
+    margin-left: 145px;
+    background: white;
+    z-index: 100;
+}
+
+#hident-div5
+{
+    display:none;
+    position: absolute;
+    font-size: 12 px;
+    color: black;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius:5px;
+    width: 200px;
+    margin-left: 150px;
+    background: white;
+    z-index: 100;
+}
+
+#hident-div6
+{
+    display:none;
+    position: absolute;
+    font-size: 12 px;
+    color: black;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius:5px;
+    width: 200px;
+    margin-left: 50px;
+    background: white;
+    z-index: 100;
+}
+
+#hident-div7
+{
+    display:none;
+    position: absolute;
+    font-size: 12 px;
+    color: black;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius:5px;
+    width: 200px;
+    margin-left: 115px;
+    background: white;
+    z-index: 100;
+}
+
+#btn-next
+{
+
+    margin-left: 910px;
+    background: #19b5bc;
+}
+
+#span-toogle
+{
+    color:#4299dB;;
+    
+
+}
+i
+{
+    margin-left: 20px;
+}
+.row1-col2
+{
+  margin-left: 800px;  
+
+}

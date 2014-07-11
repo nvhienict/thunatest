@@ -21,6 +21,8 @@ class CreateVendors extends Migration {
 			$table->string('avatar');
 			$table->string("address");
 			$table->longText('about_us');
+			$table->integer("id_category");
+			$table->integer("id_location");
 			$table->timestamps();
 		});
 	}
